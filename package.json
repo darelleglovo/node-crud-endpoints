@@ -1,0 +1,27 @@
+{
+  "name": "node-crud-endpoints",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "express": "^4.17.0",
+    "mongoose": "^5.5.9",
+    "mongoose-unique-validator": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/darelleglovo02/node-crud-endpoints.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/darelleglovo02/node-crud-endpoints/issues"
+  },
+  "homepage": "https://gitlab.com/darelleglovo02/node-crud-endpoints#README"
+}
