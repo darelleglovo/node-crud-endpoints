@@ -8,10 +8,10 @@ const mongoose = require("mongoose");
 const userRoutes = require("./routes/user");
 // nCxWTZIt7QZRtVMy
 
+const env = require("./env.json");
+
 mongoose
-  .connect(
-    "mongodb+srv://yah:nCxWTZIt7QZRtVMy@node-crud-khleq.mongodb.net/test?retryWrites=true"
-  )
+  .connect(env.mongooseKey)
   .then(() => {
     console.log("Connected to database..");
   })
